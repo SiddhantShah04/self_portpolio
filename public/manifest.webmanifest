@@ -2,11 +2,11 @@
     "theme_color": "#000000",
     "background_color": "#000000",
     "display": "standalone",
-    "scope": "https://kaustubhodak.vercel.app/",
-    "start_url": "https://kaustubhodak.vercel.app/",
-    "name": "Kaustubh Odak",
-    "short_name": "KO",
-    "description": "Kaustubh Odak's portfolio",
+    "scope": "https://SiddhantShah.vercel.app/",
+    "start_url": "https://SiddhantShah.vercel.app/",
+    "name": "Siddhant Shah",
+    "short_name": "SS",
+    "description": "Siddhant Shah's portfolio",
     "icons": [
         {
             "src": "/ss.webp.png",
