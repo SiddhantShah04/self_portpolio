@@ -1,8 +1,9 @@
 {
-    "name": "Kaustubh Odak",
+    "name": "Siddhant Shah",
     "landing": {
-        "title": "Hi, I'm Kaustubh",
+        "title": "Hi, I'm Siddhant",
         "subtitles": [
+            "Talk is cheap, show me the code",
             "Full-stack developer 🌐",
             "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
@@ -11,24 +12,24 @@
         ],
         "professionalDetails": [
             {
-                "alt": "kaustubh-odak",
+                "alt": "Siddhant Shah",
                 "icon": "linkedin",
-                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+                "link": "https://www.linkedin.com/in/siddhant-shah-a60205191/"
             },
             {
-                "alt": "kausko",
+                "alt": "Siddhant",
                 "icon": "stackoverflow",
-                "link": "https://stackoverflow.com/users/15832433/kausko"
+                "link": "https://stackoverflow.com/users/11803754/siddhant-shah"
             },
             {
-                "alt": "kausko",
+                "alt": "Siddhant",
                 "icon": "github",
-                "link": "https://github.com/kausko"
+                "link": "https://github.com/SiddhantShah04"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
+                "link": "mailto:siddhantshah04@gmail.com"
             }
         ]
     },
@@ -81,67 +82,38 @@
         ]
     },
     "projects": {
-        "baseURI": "https://api.github.com/repos/kausko/",
+        "baseURI": "https://api.github.com/repos/SiddhantShah04/",
         "repositories": [
-            "Portfolio",
-            "Genrealize",
-            "Discord-Google-Drive-Bot",
-            "GitHits",
-            "Mail-em",
-            "JAutoLayout"
+            "ExamPortal",
+            "Vaccinaing-Kidney",
+            "talk"
         ]
     },
     "experience": {
         "Work Experience": [
             {
-                "organization": "CloudDFN LLP",
-                "role": "Full Stack Developer",
+                "organization": "Pro-Civil",
+                "role": "Software Engineer",
                 "type": "Internship",
-                "startDate": "2020-07-20",
-                "endDate": "2021-01-20",
+                "startDate": "2020-11-01",
+                "endDate": "2021-01-01",
                 "city": "Mumbai",
                 "state": "Maharashtra",
                 "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "/CDFN.jfif"
+                "url": "https://www.linkedin.com/company/procivil-solutions/",
+                "thumbnail": "/procivil.jfif"
             },
             {
-                "organization": "NonceBlox Pvt. Ltd.",
-                "role": "Full Stack Developer",
-                "type": "Internship",
-                "startDate": "2021-07-01",
-                "endDate": "2021-10-01",
-                "city": "New Delhi",
-                "state": "Delhi",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "https://www.nonceblox.com/ton3.png"
-            }
-        ],
-        "Volunteer Experience": [
-            {
-                "organization": "PICT IEEE Student Branch (PISB)",
-                "role": "Technical Head",
-                "type": "Member",
-                "startDate": "2019-07-01",
-                "endDate": "",
-                "city": "Pune",
+                "organization": "Code-B",
+                "role": "Software Engineer",
+                "type": "Job",
+                "startDate": "2021-02-15",
+                "endDate": "Present",
+                "city": "Mumbai",
                 "state": "Maharashtra",
                 "country": "India",
-                "url": "https://www.linkedin.com/company/pisbieee/",
-                "thumbnail": "/PISB.jfif"
-            },
-            {
-                "organization": "Pictoreal",
-                "role": "Technical Head",
-                "type": "Member",
-                "startDate": "2019-07-01",
-                "endDate": "2021-04-01",
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India",
-                "url": "https://www.linkedin.com/company/pictoreal/",
-                "thumbnail": "/Picto.jfif"
+                "url": "https://www.linkedin.com/company/code-b/",
+                "thumbnail": "/codeb.png"
             }
         ]
     },

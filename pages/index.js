@@ -78,7 +78,7 @@ export default function Index({ projects, setTheme }) {
         <Skills />
         <Projects data={projects}/>
         <Experience/>
-        <About/>
+        {/* <About/> */}
       </Container>
     </div>
   );
