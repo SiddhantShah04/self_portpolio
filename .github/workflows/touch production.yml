@@ -23,6 +23,8 @@ jobs:
     - name: Development Build
       run: |
         yarn build
+    - name: Archive build artifact
+      uses: actions/upload-artifact@v2
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       env:
