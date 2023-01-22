@@ -24,7 +24,9 @@ export async function getStaticProps() {
   const repos = projects.repositories
   const reqInit = {
     headers: { 
-      'Authorization': `token ${process.env.PAT}`
+      // 'Authorization': `token ${process.env.PAT}`
+      'Authorization': `token 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`
+
     }
   }
   const fullRepoData = await Promise.allSettled(
