@@ -27,8 +27,7 @@ export default function MyApp({ Component, pageProps }) {
     <React.Fragment>
       <Head>
         <title>Siddhant Shah</title>
-        <meta name="viewport" content="minimum-scale=1,initial-scale=1.0, width=device-width" key="viewport" 
-        />
+        <meta name="viewport" content="minimum-scale=1,initial-scale=1.0, width=device-width" key="viewport" />
         <meta name="google-site-verification" content="UnIJZPVWbBBbWudWN6mqjZodk0U3eLM4sX7r5z5w5v8" />
       </Head>
       <MuiThemeProvider theme={theme}>

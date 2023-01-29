@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="black" />
           <meta name="description" content={`Portfolio of ${name}`}/>
           <meta name='keywords' content={'Portfolio ' + name + ' skills projects experience resume'} />
+          <meta name="google-site-verification" content="UnIJZPVWbBBbWudWN6mqjZodk0U3eLM4sX7r5z5w5v8" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
