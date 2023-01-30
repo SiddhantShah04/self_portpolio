@@ -33,7 +33,6 @@ export async function getStaticProps() {
     repos.map(
       async name => {
         const repo = await fetch(baseURI + name, reqInit).then(res => res.json());
-        console.log({repo})
         const langs = await fetch(baseURI + name + "/languages", reqInit).then(res => res.json())
         return {
           ...repo,
@@ -81,7 +80,7 @@ export default function Index({ projects, setTheme }) {
         <Skills />
         <Projects data={projects}/>
         <Experience/>
-        {/* <About/> */}
+        <About/>
       </Container>
     </div>
   );

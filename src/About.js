@@ -32,7 +32,7 @@ socialDetails.forEach(({ alt, backgroundColor }) => {
 
 const useStyles = makeStyles(theme => ({
     cont: {
-        minHeight: `calc(100vh - ${theme.spacing(4)}px)`,
+        minHeight: `calc(50vh - ${theme.spacing(4)}px)`,
         alignSelf: 'center',
         justifySelf: 'center'
     },
@@ -53,25 +53,26 @@ export default function About() {
 
     return(
         <Grid direction="row" container justify="center" alignItems="center" className={classes.cont}>
-            <Grid item xs={12} lg={6}>
-                <Typography variant="h2" gutterBottom component="p">
-                    About me
-                </Typography>
-                <Typography variant="h5" gutterBottom component="p">
-                    {about.description}
-                </Typography>                
-            </Grid>
-            <Grid container direction="column" item xs={12} lg={6} spacing={2} justify="center" alignItems="center">
+           
+            <Grid container direction="column" item xs={12} lg={6} spacing={2} >
                 <Grid item xs={12}>
-                    <Avatar variant="rounded" className={classes.dp}>
+                    {/* <Avatar variant="rounded" className={classes.dp}>
                         <Image
                             alt="Display Picture"
                             src={about.picture}
                             layout="fill"
                         />
-                    </Avatar>
+                    </Avatar> */}
+                    <Typography variant="h2" gutterBottom component="p" align="center">
+                Get In Touch
+                </Typography>
+                               
+                    <Typography variant="h6" gutterBottom component="p">
+                    {about.description}
+                </Typography> 
                 </Grid>
-                <Grid container item xs={12} spacing={2} justify="center">
+
+                {/* <Grid container item xs={12} spacing={2} justify="center">
                 {
                     socialDetails.map(({ alt, icon, link }, i) =>
                         <Grid item key={i}>
@@ -85,7 +86,10 @@ export default function About() {
                         </Grid>
                     )
                 }
-                </Grid>                
+                </Grid>                 */}
+            </Grid>
+            <Grid item xs={12} lg={6} >
+                
             </Grid>
         </Grid>
     )
